@@ -2,4 +2,4 @@
 
 This is a BikeBerry website
 
-A Website for Purchasing Bikes
+A Website for Purchasing Bikes online
