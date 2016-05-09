@@ -1,4 +1,15 @@
-
 .nav {
     position: fixed;
+    text-align: center;
+    display: block;
+    border: solid 1px;
+    background-color: #F3D8A0;
+}
+.row {
+    margin: 0;
+    max-width: 1350px;
+}
+.simple li {
+    padding: 12px;
+    font-size: 2em;
 }
