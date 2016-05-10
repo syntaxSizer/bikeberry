@@ -13,3 +13,158 @@
     padding: 12px;
     font-size: 2em;
 }
+
+/*start here */
+
+body {
+    color: #727272;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #fff;
+}
+h1,
+h2,
+h3 {
+    margin: 0 0 25px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    line-height: 40px;
+}
+.main {
+    width: 100%;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+/* header*/
+
+header {
+    top: 0;
+    margin: 0;
+    height: 100vh;
+    max-height: 100vh;
+    background: url(http://arielbeninca.com/Storage/Milky-Way-Galaxy-Over-Mountains.jpg) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+#headercontent {
+    padding-top: 40vh;
+}
+
+/* Parallax windows*/
+
+.paralaxtext {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 100px;
+}
+.paralax1 {
+    background: url(http://arielbeninca.com/Storage/forest-wallpaper-tumblr-3.jpg) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.paralax2 {
+    background: url(http://arielbeninca.com/Storage/1746699.jpg) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.paralax3 {
+    background: url(http://arielbeninca.com/Storage/1913098.jpg) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+/* mouse anaimtion */
+
+.mouse {
+    width: 22px;
+    position: absolute;
+    height: 42px;
+    border-radius: 15px;
+    border: 2px solid white;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -12px;
+}
+.scroll {
+    display: block;
+    margin: 6px auto;
+    width: 3px;
+    height: 3px;
+    border-radius: 4px;
+    background: white;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+}
+@keyframes scroll {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+}
+@-webkit-keyframes scroll {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+}
+
+/*ends here*/
